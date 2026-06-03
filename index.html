@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Prompt Generator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<div class="container">
+
+    <h1>AI Prompt Generator</h1>
+
+    <p class="subtitle">
+        Generate ready-to-use prompts for AI tools.
+    </p>
+
+    <select id="category">
+        <option value="chatgpt">ChatGPT</option>
+        <option value="coding">Coding</option>
+        <option value="marketing">Marketing</option>
+        <option value="midjourney">Midjourney</option>
+    </select>
+
+    <button id="generateBtn">
+        Generate Prompt
+    </button>
+
+    <div class="result-box">
+        <h3>Generated Prompt</h3>
+
+        <p id="result">
+            Click the button to generate a prompt.
+        </p>
+    </div>
+
+    <button id="copyBtn">
+        Copy Prompt
+    </button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
